@@ -27,7 +27,6 @@ class OttoGroupDataset(Dataset):
         self.x_data = from_numpy(df[[col for col in df.columns if col not in ['target', 'id']]].values.astype(np.float32))
 
         self.len = df.shape[0]
-        print(self.x_data.shape)
          
 
     ## return the number of examples in dataset
