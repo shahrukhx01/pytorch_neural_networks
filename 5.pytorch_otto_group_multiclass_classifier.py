@@ -90,7 +90,7 @@ for epoch in range(10):
 
         ## perform the forward pass
         y_pred = model(x_data)
-
+        
         ## compute loss
         loss = criterion(y_pred, y_data)
 
