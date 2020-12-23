@@ -8,7 +8,14 @@ Here we use torchtext based dataloader to perform following steps:
 2. tokenize data
 3. create vocabulary
 4. create batches
+
+References:
+https://www.youtube.com/watch?v=KRgq4VnCr7I&ab_channel=AladdinPersson
+http://mlexplained.com/2018/02/08/a-comprehensive-tutorial-to-torchtext/
+
 """
+
+
 class ReviewsDataset():
     def __init__(self, data_path, train_path):
 
